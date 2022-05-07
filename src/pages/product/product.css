@@ -1,0 +1,130 @@
+.Adminproduct {
+  flex: 4;
+  padding: 20px;
+}
+
+.AdminproductTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.AdminproductTop {
+  display: flex;
+}
+
+.AdminproductTopLeft,
+.AdminproductTopRight {
+  flex: 1;
+}
+
+.AdminproductTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.AdminproductInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.AdminproductInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.AdminproductName {
+  font-weight: 600;
+}
+
+.AdminproductInfoBottom {
+  margin-top: 10px;
+}
+
+.AdminproductInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.AdminproductInfoValue {
+  font-weight: 300;
+}
+
+.AdminproductBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.AdminproductForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AdminproductFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.AdminproductFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.AdminproductFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.AdminproductFormLeft >select{
+  margin-bottom: 10px;
+}
+
+.AdminproductUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.AdminproductFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.AdminproductUpload{
+  display: flex;
+  align-items: center;
+}
+
+.AdminproductButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
